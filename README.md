@@ -64,7 +64,7 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-<table>
+<table align="center">
   <tr>
     <td align="center"><b>Maximiliano Tauil</b></td>
     <td align="center"><b>Sebastian Armijo</b></td>
