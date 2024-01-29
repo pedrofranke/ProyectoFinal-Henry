@@ -10,15 +10,19 @@ The primary objective of this project is to simulate a business consulting firm 
 
 ### Step 1: ETL (Extraction, Transformation, and Loading)
 
-In this phase, relevant data about restaurants, reviews, and other key metrics are collected.
+Relevant data about restaurants, reviews, and other key metrics are collected while using the [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) and the [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) provided DataSets.
+
+To check-out the ETL you can click in this [link](/Data%20Engineering/) and see the ETL model analysis.
 
 ### Step 2: Exploratory Data Analysis (EDA)
 
 In this stage, explore and analyze the data to better understand trends and patterns.
 
-### Step 3: KPI Dashboard Creation
+To check-out the ETL you can click in this [link](/Data%20Analysis/) and see the ETL model analysis.
 
-Build a dashboard presenting key performance indicators (KPIs) defined by the client.
+### Step 3: Dashboard
+
+Build a dashboard presenting a full analysis of the data and evolution of key performance indicators (KPIs) defined by the client.
 
 #### Main KPIs on the Dashboard:
 
@@ -46,7 +50,7 @@ Build a dashboard presenting key performance indicators (KPIs) defined by the cl
    - Period: Annual.
    - Goal: +3%.
 
-### Step 4: Recommendation Model Creation
+### Step 4: Recommendation Model
 
 Finally, build a recommendation model to provide our client with a list of restaurants comparable to theirs.
 
