@@ -17,7 +17,13 @@
 
 ## About the Project
 
+### Objective
+
 The primary objective of this project is to simulate a business consulting firm while engaging in a hands-on project. In this scenario, a client approaches us to analyze the opportunities for opening a restaurant somewhere in the state of New York.
+
+### Scope
+
+This project focuses on analyzing data within the state of New York during the period from 2016 to 2021. The scope is limited to this geographical area and timeframe as explained in [this](link) analisis.
 
 ### Step-by-Step Guide
 
