@@ -7,7 +7,7 @@
 <details>
   <summary>Content Table</summary>
   <ol>
-    <li><a href="#Índice">Index</a></li>
+    <li><a href="#Index">Index</a></li>
     <li><a href="#About the Project">About the Project</a></li>
     <li><a href="#Technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
@@ -15,29 +15,29 @@
   </ol>
 </details>
 
-# <h2 align=left> **About the Project** </h2>
+## <h2 align=left> **About the Project** </h2>
 
 The primary objective of this project is to simulate a business consulting firm while engaging in a hands-on project. In this scenario, a client approaches us to analyze the opportunities for opening a restaurant somewhere in the state of New York.
 
-## Step-by-Step Guide
+### Step-by-Step Guide
 
-### Step 1: ETL (Extraction, Transformation, and Loading)
+#### Step 1: ETL (Extraction, Transformation, and Loading)
 
 Relevant data about restaurants, reviews, and other key metrics are collected while using the [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) and the [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) provided DataSets.
 
 To check-out the ETL you can click in this [link](/Data%20Engineering/) and see the ETL model analysis.
 
-### Step 2: Exploratory Data Analysis (EDA)
+#### Step 2: Exploratory Data Analysis (EDA)
 
 In this stage, explore and analyze the data to better understand trends and patterns.
 
 To check-out the ETL you can click in this [link](/Data%20Analysis/) and see the ETL model analysis.
 
-### Step 3: Dashboard
+#### Step 3: Dashboard
 
 Build a dashboard presenting a full analysis of the data and evolution of key performance indicators (KPIs) defined by the client.
 
-#### Main KPIs on the Dashboard:
+##### Main KPIs on the Dashboard:
 
 1. **Positive Reviews Growth:**
    - Definition: Absolute count of positive and neutral reviews.
@@ -63,7 +63,7 @@ Build a dashboard presenting a full analysis of the data and evolution of key pe
    - Period: Annual.
    - Goal: +3%.
 
-### Step 4: Recommendation Model
+#### Step 4: Recommendation Model
 
 Finally, build a recommendation model to provide our client with a list of restaurants comparable to theirs.
 
