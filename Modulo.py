@@ -25,3 +25,4 @@ def tipo_datos(df): #verifica el tipo de datos y devuelve todos los tipos de dat
     datf = pd.DataFrame(dic) #genera dataframe para devolver
 
     return datf
+
