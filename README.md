@@ -15,7 +15,9 @@
   </ol>
 </details>
 
-## <h2 align=left> **About the Project** </h2>
+## About the Project
+
+<h2 align="left">About the Project</h2>
 
 The primary objective of this project is to simulate a business consulting firm while engaging in a hands-on project. In this scenario, a client approaches us to analyze the opportunities for opening a restaurant somewhere in the state of New York.
 
