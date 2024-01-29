@@ -64,9 +64,10 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-| Name           | Role              | LinkedIn                                      | Contributions                         |
-| -------------- | ----------------- | --------------------------------------------- | ------------------------------------- |
-| John Doe       | Data Scientist    | [![John Doe](link_to_image)](https://www.linkedin.com/in/johndoe/) | Machine learning models, data analysis |
+| Name           | Role               | LinkedIn                                      | Contributions                         |
+| -------------- | -----------------  | --------------------------------------------- | ------------------------------------- |
+| Pedro Franke   | ML Ops Engineer    | [![John Doe](link_to_image)](https://www.linkedin.com/in/johndoe/) | Machine learning models, data analysis |
+| Jane Smith     | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
 | Jane Smith     | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
 | Alex Johnson   | Data Analyst       | [![Alex Johnson](link_to_image)](https://www.linkedin.com/in/alexjohnson/) | Data analysis, visualization          |
 | Sarah Williams | ML Ops Engineer    | [![Sarah Williams](link_to_image)](https://www.linkedin.com/in/sarahwilliams/) | ML Ops, model deployment              |
