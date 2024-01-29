@@ -8,7 +8,7 @@
   <summary>Content Table</summary>
   <ol>
     <li><a href="#Index">Index</a></li>
-    <li><a href="#About-the-Project">About the Project</a></li>
+    <li><a href="#about-the-project">About the Project</a></li>
     <li><a href="#Technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
     <li><a href="#Timeline">Project Timeline</a></li>
