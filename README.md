@@ -24,7 +24,7 @@ The primary objective of this project is to simulate a business consulting firm 
 
 ### Scope
 
-This project focuses on analyzing data within the state of New York during the period from 2016 to 2021. The scope is limited to this geographical area and timeframe as explained in [this](link) analisis.
+This project focuses on analyzing data within the states of California, New York, Texas, Florida & Pennsylvania during the period from 2016 to 2021. The mentioned States where chosen because of its mayor population, you can see the step guide [here](Scope.ipynb)
 
 ### Step-by-Step Guide
 
