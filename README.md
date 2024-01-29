@@ -1,4 +1,4 @@
-# <img src="Images/Logo2.png" alt="Texto Alternativo" width="200"/>
+# <img src="Images/Logo2.png" alt="Texto Alternativo" width="1000"/>
 
 # ProyectoFinal-Henry  
 
