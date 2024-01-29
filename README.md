@@ -9,9 +9,10 @@
   <ol>
     <li><a href="#Index">Index</a></li>
     <li><a href="#about-the-project">About the Project</a></li>
-    <li><a href="#Technologies">Selected Technologies</a></li>
+    <li><a href="#selected-technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
     <li><a href="#Timeline">Project Timeline</a></li>
+    <li><a href="#members">Members</a></li>
   </ol>
 </details>
 
@@ -49,7 +50,19 @@ Finally, build a recommendation model to provide our client with a list of resta
 
 This project aims to provide our client with valuable information for strategic decision-making and a deeper understanding of the local restaurant market.
 
+## Selected Technologies
 
+
+
+## Pipeline
+
+
+
+## Timeline
+
+
+
+## Members
 
 
 [Instrucciones del proyecto](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md)  
