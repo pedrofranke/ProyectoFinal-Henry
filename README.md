@@ -12,7 +12,7 @@
     <li><a href="#selected-technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
     <li><a href="#Timeline">Project Timeline</a></li>
-    <li><a href="#members">Members</a></li>
+    <li><a href="#team-members">Team Members</a></li>
   </ol>
 </details>
 
@@ -62,16 +62,13 @@ This project aims to provide our client with valuable information for strategic 
 
 
 
-## Members
+## Team Members
 
+| Name           | Role              | LinkedIn                                      | Contributions                         |
+| -------------- | ----------------- | --------------------------------------------- | ------------------------------------- |
+| John Doe       | Data Scientist    | [![John Doe](link_to_image)](https://www.linkedin.com/in/johndoe/) | Machine learning models, data analysis |
+| Jane Smith     | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
+| Alex Johnson   | Data Analyst       | [![Alex Johnson](link_to_image)](https://www.linkedin.com/in/alexjohnson/) | Data analysis, visualization          |
+| Sarah Williams | ML Ops Engineer    | [![Sarah Williams](link_to_image)](https://www.linkedin.com/in/sarahwilliams/) | ML Ops, model deployment              |
 
-[Instrucciones del proyecto](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md)  
-
-Datasets:  
-[Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF)  
-[Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA)  
-
-
-
-## **Desarrollo del trabajo**
 
