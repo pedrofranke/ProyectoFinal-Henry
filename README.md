@@ -64,12 +64,12 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-| Name           | Role               | LinkedIn                                      | Contributions                         |
-| -------------- | -----------------  | --------------------------------------------- | ------------------------------------- |
-| Pedro Franke   | ML Ops Engineer    | [![John Doe](link_to_image)](https://www.linkedin.com/in/johndoe/) | Machine learning models, data analysis |
-| Jane Smith     | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
-| Jane Smith     | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
-| Alex Johnson   | Data Analyst       | [![Alex Johnson](link_to_image)](https://www.linkedin.com/in/alexjohnson/) | Data analysis, visualization          |
-| Sarah Williams | ML Ops Engineer    | [![Sarah Williams](link_to_image)](https://www.linkedin.com/in/sarahwilliams/) | ML Ops, model deployment              |
+| Name                 | Role               | LinkedIn                                      | Contributions                         |
+| -------------------- | -----------------  | --------------------------------------------- | ------------------------------------- |
+| Maximiliano Tauil    | Data Engineer    | [![Maximiliano Tauil](link_to_image)]([https://www.linkedin.com/in/johndoe/](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)) | Machine learning models, data analysis |
+| Nicolás Pontis Ledda | Data Engineer      | [![Jane Smith](link_to_image)](https://www.linkedin.com/in/janesmith/) | Data engineering, pipeline development |
+| Nicolás Pontis Ledda | Data Analyst      | [![Nicolás Pontis Ledda](link_to_image)]([https://www.linkedin.com/in/janesmith/](https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/)) | Data engineering, pipeline development |
+| Lucero Flores        | Data Analyst       | [![Lucero Flores](Images/Lucero.jpg)]([https://www.linkedin.com/in/alexjohnson/](https://www.linkedin.com/in/lucerofa/)) | Data analysis, visualization          |
+| Pedro Franke         | ML Ops Engineer    | [![Pedro Franke](link_to_image)](https://www.linkedin.com/in/sarahwilliams/) | ML Ops, model deployment              |
 
 
