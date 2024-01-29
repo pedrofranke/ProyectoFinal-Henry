@@ -64,7 +64,7 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-### Maximiliano Tauil [Images/lkd.png](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)
+### Maximiliano Tauil [![Maximiliano Tauil](Images/lkd.png)](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)
 Data Engineer
 <img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="50"/>
 
