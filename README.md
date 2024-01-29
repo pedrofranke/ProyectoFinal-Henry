@@ -43,32 +43,6 @@ To check-out the ETL you can click in this [link](/Data%20Analysis/) and see the
 
 Build a dashboard presenting a full analysis of the data and evolution of key performance indicators (KPIs) defined by the client.
 
-##### Main KPIs on the Dashboard:
-
-1. **Positive Reviews Growth:**
-   - Definition: Absolute count of positive and neutral reviews.
-   - Period: Annual.
-   - Goal: +10%.
-
-2. **Visits Growth:**
-   - Definition: Absolute count of people with reviews.
-   - Period: Annual.
-   - Goal: +10%.
-
-3. **Seasonal Growth:**
-   - Definition: Absolute count of visits during high season periods (June to August).
-   - Goal: +10%.
-
-4. **Business Count Growth:**
-   - Definition: Absolute count of businesses with reviews.
-   - Period: Annual.
-   - Goal: +5%.
-
-5. **Price Category Growth:**
-   - Definition: Percentage of businesses with price category 4 or 5 out of the total.
-   - Period: Annual.
-   - Goal: +3%.
-
 #### Step 4: Recommendation Model
 
 Finally, build a recommendation model to provide our client with a list of restaurants comparable to theirs.
