@@ -64,23 +64,36 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-### Maximiliano Tauil [Images/lkd.png](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)
-Data Engineer
-<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="50"/>
+<table align="center">
+  <tr>
+    <td align="center"><b>Maximiliano Tauil</b></td>
+    <td align="center"><b>Sebastian Armijo</b></td>
+    <td align="center"><b>Nicolás Pontis Ledda</b></td>
+    <td align="center"><b>Lucero Flores</b></td>
+    <td align="center"><b>Pedro Franke</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="Images/Maxi.jpeg" alt="Maxi" width="100"/></td>
+    <td align="center"><img src="Images/Sebastian.jpeg" alt="Sebastian" width="100"/></td>
+    <td align="center"><img src="Images/Nico.jpeg" alt="Nico" width="100"/></td>
+    <td align="center"><img src="Images/Lucero.jpeg" alt="Lucero" width="100"/></td>
+    <td align="center"><img src="Images/Pedro.jpeg" alt="Pedro" width="100"/></td>
+  </tr>
+  <tr>
+    <td align="center">Data Engineer</td>
+    <td align="center">Data Engineer</td>
+    <td align="center">Data Analyst</td>
+    <td align="center">Data Analyst</td>
+    <td align="center">ML Ops Engineer</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/maximiliano-tauil-3a0010252/"><img src="Images/lkd.png" alt="LinkedIn" width="40"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/maximiliano-tauil-3a0010252/"><img src="Images/lkd.png" alt="LinkedIn" width="40"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/"><img src="Images/lkd.png" alt="LinkedIn" width="40"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lucerofa/"><img src="Images/lkd.png" alt="LinkedIn" width="40"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pedro-franke/"><img src="Images/lkd.png" alt="LinkedIn" width="40"/></a></td>
+  </tr>
+</table>
 
-### Sebastian Armijo [Images/lkd.png](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)
-Data Engineer
-<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="50"/>
 
-### Nicolás Pontis Ledda [Images/lkd.png](https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/)
-Data Analyst
-<img src="Images/Nico.jpeg" alt="Texto Alternativo" width="50"/>
-
-### Lucero Flores [Images/lkd.png](https://www.linkedin.com/in/lucerofa/)
-Data Analyst
-<img src="Images/Lucero.jpeg" alt="Texto Alternativo" width="50"/>
-
-### Pedro Franke [Images/lkd.png](https://www.linkedin.com/in/pedro-franke/)
-ML Ops Engineer
-<img src="Images/Pedro.jpeg" alt="Texto Alternativo" width="50"/>
 
