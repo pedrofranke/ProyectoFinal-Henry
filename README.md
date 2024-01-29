@@ -1,4 +1,4 @@
-# ![ConsultART](Images/Logo2.png)
+# <img src="Images/Logo2.png" alt="Texto Alternativo" width="200"/>
 
 # ProyectoFinal-Henry  
 
