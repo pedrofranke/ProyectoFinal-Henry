@@ -1,4 +1,9 @@
 import pandas as pd
+from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk import download
+
+download('vader_lexicon')
+
 
 def categorizar(df,columnain,columnaout,palabra): #agrega una nueva columna categorizando segun una columna
     def ejecutor(row):
@@ -26,3 +31,15 @@ def tipo_datos(df): #verifica el tipo de datos y devuelve todos los tipos de dat
 
     return datf
 
+def analyze_sentiment(text):
+    sia = SentimentIntensityAnalyzer()
+    sentiment_score = sia.polarity_scores(text)
+
+    compound_score = sentiment_score['compound']
+
+    if compound_score >= 0.35:
+        return 'Positive'
+    elif compound_score <= -0.15:
+        return 'Negative'
+    else:
+        return 'Neutral'
