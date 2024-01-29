@@ -2,6 +2,19 @@
 
 # <h1 align=center> **Restaurant Analysis and Consulting Project** </h1>
 
+## Index
+
+<details>
+  <summary>Content Table</summary>
+  <ol>
+    <li><a href="#Índice">Index</a></li>
+    <li><a href="#About the Project">About the Project</a></li>
+    <li><a href="#Technologies">Selected Technologies</a></li>
+    <li><a href="#Pipeline">Project Pipeline</a></li>
+    <li><a href="#Timeline">Project Timeline</a></li>
+  </ol>
+</details>
+
 # <h2 align=left> **About the Project** </h2>
 
 The primary objective of this project is to simulate a business consulting firm while engaging in a hands-on project. In this scenario, a client approaches us to analyze the opportunities for opening a restaurant somewhere in the state of New York.
