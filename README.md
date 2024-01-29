@@ -64,12 +64,26 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Team Members
 
-| Name                 | Role               | LinkedIn                                      | Contributions                         |
-| -------------------- | -----------------  | --------------------------------------------- | ------------------------------------- |
-| Maximiliano Tauil    | Data Engineer    | [![Maximiliano Tauil](Images/Maxi.jpeg)]([https://www.linkedin.com/in/maximiliano-tauil-3a0010252/]) | Data engineering, pipeline development |
-| Nicolás Pontis Ledda | Data Engineer      | [![Jane Smith](link_to_image)]([https://www.linkedin.com/in/janesmith/]) | Data engineering, pipeline development |
-| Nicolás Pontis Ledda | Data Analyst      | [![Nicolás Pontis Ledda](Images/Nico.jpeg)]([https://www.linkedin.com/in/janesmith/]([https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/]) | Data analysis, visualization |
-| Lucero Flores        | Data Analyst       | [![Lucero Flores](Images/Lucero.jpeg)]([https://www.linkedin.com/in/lucerofa/]) | Data analysis, visualization          |
-| Pedro Franke         | ML Ops Engineer    | [![Pedro Franke](Images/Pedro.jpeg)]([https://www.linkedin.com/in/pedro-franke/]) | Machine learning model, model deployment              |
+### Maximiliano Tauil 
+Data Engineer
+[![Maximiliano Tauil](Images/Maxi.jpeg)](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/)
 
+Data engineering, pipeline development
+
+### Nicolás Pontis Ledda (Data Engineer)
+[![Nicolás Pontis Ledda](Images/Nico.jpeg)](https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/)
+
+Data engineering, pipeline development
+
+### Lucero Flores
+Data Analyst
+[![Lucero Flores](Images/Lucero.jpeg)](https://www.linkedin.com/in/lucerofa/)
+
+Data analysis, visualization
+
+### Pedro Franke
+ML Ops Engineer
+[![Pedro Franke](Images/Pedro.jpeg)](https://www.linkedin.com/in/pedro-franke/)
+
+Machine learning model, model deployment
 
