@@ -65,23 +65,23 @@ This project aims to provide our client with valuable information for strategic 
 ## Team Members
 
 ### Maximiliano Tauil [<img src="Images/lkd.png" alt="LinkedIn" width="40">](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/) <br>
-<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="50"/> <br>
+<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="100"/> <br>
 Data Engineer 
 
 ### Sebastian Armijo [<img src="Images/lkd.png" alt="LinkedIn" width="40">](https://www.linkedin.com/in/maximiliano-tauil-3a0010252/) <br>
-<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="50"/> <br>
+<img src="Images/Maxi.jpeg" alt="Texto Alternativo" width="100"/> <br>
 Data Engineer 
 
 ### Nicolás Pontis Ledda [<img src="Images/lkd.png" alt="LinkedIn" width="40">](https://www.linkedin.com/in/nicol%C3%A1s-pontis-ledda-8a8083197/)<br>
-<img src="Images/Nico.jpeg" alt="Texto Alternativo" width="50"/>
+<img src="Images/Nico.jpeg" alt="Texto Alternativo" width="100"/>
 Data Analyst <br>
 
 ### Lucero Flores [<img src="Images/lkd.png" alt="LinkedIn" width="40">](https://www.linkedin.com/in/lucerofa/)<br>
-<img src="Images/Lucero.jpeg" alt="Texto Alternativo" width="50"/> <br>
+<img src="Images/Lucero.jpeg" alt="Texto Alternativo" width="100"/> <br>
 Data Analyst 
 
 ### Pedro Franke [<img src="Images/lkd.png" alt="LinkedIn" width="40">](https://www.linkedin.com/in/pedro-franke/) <br>
-<img src="Images/Pedro.jpeg" alt="Texto Alternativo" width="50"/> <br>
+<img src="Images/Pedro.jpeg" alt="Texto Alternativo" width="100"/> <br>
 ML Ops Engineer
 
 
