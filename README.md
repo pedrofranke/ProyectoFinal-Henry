@@ -1,4 +1,4 @@
-# ![ConsultART](images/logo2.png)
+# ![ConsultART](Images/Logo2.png)
 
 # ProyectoFinal-Henry  
 
