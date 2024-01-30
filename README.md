@@ -52,16 +52,16 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-| Tecnología |         | Documentación |
-|------------|--------|---------------|
-| Python     | <img src="Images/Logos/python.png" alt="Python" width="100"> | [Documentación de Python](https://www.python.org/doc/) |
-| Google Cloud | <img src="Images/Logos/google_cloud.png" alt="Google Cloud" width="100"> | [Documentación de Google Cloud](https://cloud.google.com/docs) |
-| Matplotlib | <img src="Images/Logos/matplotlib.png" alt="Matplotlib" width="100"> | [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html) |
-| NLTK | <img src="Images/Logos/NLTK.png" alt="NLTK" width="100"> | [Documentación de NLTK](https://www.nltk.org/) |
-| Pandas | <img src="Images/Logos/pandas.png" alt="Pandas" width="100"> | [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) |
-| Power BI | <img src="Images/Logos/powerbi.png" alt="Power BI" width="100"> | [Documentación de Power BI](https://docs.microsoft.com/en-us/power-bi/) |
-| Seaborn | <img src="Images/Logos/seaborn.png" alt="Seaborn" width="100"> | [Documentación de Seaborn](https://seaborn.pydata.org/) |
-| Surprise | <img src="Images/Logos/surprise.png" alt="Surprise" width="100"> | [Documentación de Surprise](https://surprise.readthedocs.io/en/stable/) |
+| Tecnología                         | Documentación                                      |
+|------------------------------------|----------------------------------------------------|
+| Python ![Python](Images/Logos/python.png =100x) | [Documentación de Python](https://www.python.org/doc/) |
+| Google Cloud ![Google Cloud](Images/Logos/google_cloud.png =100x) | [Documentación de Google Cloud](https://cloud.google.com/docs) |
+| Matplotlib ![Matplotlib](Images/Logos/matplotlib.png =100x) | [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html) |
+| NLTK ![NLTK](Images/Logos/NLTK.png =100x) | [Documentación de NLTK](https://www.nltk.org/) |
+| Pandas ![Pandas](Images/Logos/pandas.png =100x) | [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) |
+| Power BI ![Power BI](Images/Logos/powerbi.png =100x) | [Documentación de Power BI](https://docs.microsoft.com/en-us/power-bi/) |
+| Seaborn ![Seaborn](Images/Logos/seaborn.png =100x) | [Documentación de Seaborn](https://seaborn.pydata.org/) |
+| Surprise ![Surprise](Images/Logos/surprise.png =100x) | [Documentación de Surprise](https://surprise.readthedocs.io/en/stable/) |
 
 ## Pipeline
 
