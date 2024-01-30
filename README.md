@@ -1,4 +1,4 @@
-# <p align="center"> <img src="Images/Logo-Horizontal.png" alt="Texto Alternativo" width="800"/> </p>
+# <p align="center"> <img src="Images/Logo-Horizontal.png" alt="Texto Alternativo" width="700"/> </p>
 
 # <h1 align=center> **Restaurant Analysis and Consulting Project** </h1>
 
