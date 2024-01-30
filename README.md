@@ -52,7 +52,7 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-| Tecnología | Imagen | Documentación |
+| Tecnología          | Documentación |
 |------------|--------|---------------|
 | Python     | <img src="Images/Logos/python.png" alt="Python" width="100"> | [Documentación de Python](https://www.python.org/doc/) |
 | Google Cloud | <img src="Images/Logos/google_cloud.png" alt="Google Cloud" width="100"> | [Documentación de Google Cloud](https://cloud.google.com/docs) |
