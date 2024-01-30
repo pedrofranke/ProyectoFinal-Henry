@@ -52,9 +52,8 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-| Python                  | Google Cloud            | Matplotlib              | NLTK                    | Pandas                  | Power BI                | Seaborn                 | Surprise                |
-| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | **[Python](https://www.python.org/doc/)**                  | **[Google Cloud](https://cloud.google.com/docs)**            | **[Matplotlib](https://matplotlib.org/stable/contents.html)**              | **[NLTK](https://www.nltk.org/)**                    | **[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)**                  | **[Power BI](https://docs.microsoft.com/en-us/power-bi/)**                | **[Seaborn](https://seaborn.pydata.org/)**                 | **[Surprise](https://surprise.readthedocs.io/en/stable/)**                |
+| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | ![Python Logo](Images/Logos/python.png)  | ![Google Cloud Logo](Images/Logos/google_cloud.png) | ![Matplotlib Logo](Images/Logos/matplotlib.png) | ![NLTK Logo](Images/Logos/NLTK.png) | ![Pandas Logo](Images/Logos/pandas.png) | ![Power BI Logo](Images/Logos/powerbi.png) | ![Seaborn Logo](Images/Logos/seaborn.png) | ![Surprise Logo](Images/Logos/surprise.png) |
 
 ## Pipeline
