@@ -52,16 +52,16 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-<p align="center">
-  <img src="Images/Logos/python.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/google_cloud.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/matplotlib.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/NLTK.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/pandas.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/powerbi.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/seaborn.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/surprise.png" alt="Logo Tecnología 1" width="100">
-</p>
+| Tecnología      | Imagen                                             | Documentación                                                |
+| --------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| Python          | ![Python](Images/Logos/python.png)                  | [Documentación de Python](https://www.python.org/doc/)        |
+| Google Cloud    | ![Google Cloud](Images/Logos/google_cloud.png)      | [Documentación de Google Cloud](https://cloud.google.com/docs) |
+| Matplotlib      | ![Matplotlib](Images/Logos/matplotlib.png)          | [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html) |
+| NLTK            | ![NLTK](Images/Logos/NLTK.png)                      | [Documentación de NLTK](https://www.nltk.org/)                |
+| Pandas          | ![Pandas](Images/Logos/pandas.png)                  | [Documentación de Pandas](https://pandas.pydata.org/docs/)    |
+| PowerBI         | ![PowerBI](Images/Logos/powerbi.png)                | [Documentación de PowerBI](https://docs.microsoft.com/en-us/power-bi/) |
+| Seaborn         | ![Seaborn](Images/Logos/seaborn.png)                | [Documentación de Seaborn](https://seaborn.pydata.org/)       |
+| Surprise        | ![Surprise](Images/Logos/surprise.png)              | [Documentación de Surprise](https://surprise.readthedocs.io/) |
 
 ## Pipeline
 
