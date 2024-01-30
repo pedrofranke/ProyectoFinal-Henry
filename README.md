@@ -52,16 +52,10 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-| Tecnología                         | Documentación                                      |
-|------------------------------------|----------------------------------------------------|
-| Python <img src="Images/Logos/python.png" alt="Python" width="100"> | [Documentación de Python](https://www.python.org/doc/) |
-| Google Cloud <img src="Images/Logos/google_cloud.png" alt="Google Cloud" width="100"> | [Documentación de Google Cloud](https://cloud.google.com/docs) |
-| Matplotlib <img src="Images/Logos/matplotlib.png" alt="Matplotlib" width="100"> | [Documentación de Matplotlib](https://matplotlib.org/stable/contents.html) |
-| NLTK <img src="Images/Logos/NLTK.png" alt="NLTK" width="100"> | [Documentación de NLTK](https://www.nltk.org/) |
-| Pandas <img src="Images/Logos/pandas.png" alt="Pandas" width="100"> | [Documentación de Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) |
-| Power BI <img src="Images/Logos/powerbi.png" alt="Power BI" width="100"> | [Documentación de Power BI](https://docs.microsoft.com/en-us/power-bi/) |
-| Seaborn <img src="Images/Logos/seaborn.png" alt="Seaborn" width="100"> | [Documentación de Seaborn](https://seaborn.pydata.org/) |
-| Surprise <img src="Images/Logos/surprise.png" alt="Surprise" width="100"> | [Documentación de Surprise](https://surprise.readthedocs.io/en/stable/) |
+| Python                  | Google Cloud            | Matplotlib              | NLTK                    | Pandas                  | Power BI                | Seaborn                 | Surprise                |
+| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| **[Python](https://www.python.org/doc/)**                  | **[Google Cloud](https://cloud.google.com/docs)**            | **[Matplotlib](https://matplotlib.org/stable/contents.html)**              | **[NLTK](https://www.nltk.org/)**                    | **[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)**                  | **[Power BI](https://docs.microsoft.com/en-us/power-bi/)**                | **[Seaborn](https://seaborn.pydata.org/)**                 | **[Surprise](https://surprise.readthedocs.io/en/stable/)**                |
+| ![Python Logo](Images/Logos/python.png)  | ![Google Cloud Logo](Images/Logos/google_cloud.png) | ![Matplotlib Logo](Images/Logos/matplotlib.png) | ![NLTK Logo](Images/Logos/NLTK.png) | ![Pandas Logo](Images/Logos/pandas.png) | ![Power BI Logo](Images/Logos/powerbi.png) | ![Seaborn Logo](Images/Logos/seaborn.png) | ![Surprise Logo](Images/Logos/surprise.png) |
 
 ## Pipeline
 
