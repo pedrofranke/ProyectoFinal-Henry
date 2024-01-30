@@ -53,14 +53,14 @@ This project aims to provide our client with valuable information for strategic 
 ## Selected Technologies
 
 <p align="center">
-  <img src="Images/Logos/python.jpg" alt="Logo Tecnología 1" width="100">
+  <img src="Images/Logos/python.png" alt="Logo Tecnología 1" width="100">
   <img src="Images/Logos/google_cloud.png" alt="Logo Tecnología 1" width="100">
   <img src="Images/Logos/matplotlib.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/NLTK.jpg" alt="Logo Tecnología 1" width="100">
+  <img src="Images/Logos/NLTK.png" alt="Logo Tecnología 1" width="100">
   <img src="Images/Logos/pandas.png" alt="Logo Tecnología 1" width="100">
   <img src="Images/Logos/powerbi.png" alt="Logo Tecnología 1" width="100">
   <img src="Images/Logos/seaborn.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/Surprise.jpg" alt="Logo Tecnología 1" width="100">
+  <img src="Images/Logos/Surprise.png" alt="Logo Tecnología 1" width="100">
 </p>
 
 ## Pipeline
