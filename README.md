@@ -62,7 +62,7 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Timeline
 
-
+<img src="Images/Project_gantt.png" alt="Python Logo" width="500">
 
 ## Team Members
 
