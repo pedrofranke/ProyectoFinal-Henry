@@ -7,7 +7,6 @@ download('vader_lexicon')
 
 def categorizar(df,columnain,columnaout,palabra): #agrega una nueva columna categorizando segun una columna
     def ejecutor(row):
-        row[columnaout] = []
         if pd.notna(row[columnain]):  # Verificar si el valor no es NaN
             if palabra.lower() in row[columnain].lower():
                 row[columnaout].append(palabra)
