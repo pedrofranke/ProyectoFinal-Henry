@@ -52,16 +52,9 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-<p align="center">
-  <img src="Images/Logos/python.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/google_cloud.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/matplotlib.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/NLTK.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/pandas.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/powerbi.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/seaborn.png" alt="Logo Tecnología 1" width="100">
-  <img src="Images/Logos/surprise.png" alt="Logo Tecnología 1" width="100">
-</p>
+| **[Python](https://www.python.org/doc/)**                  | **[Google Cloud](https://cloud.google.com/docs)**            | **[Matplotlib](https://matplotlib.org/stable/contents.html)**              | **[NLTK](https://www.nltk.org/)**                    | **[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)**                  | **[Power BI](https://docs.microsoft.com/en-us/power-bi/)**                | **[Seaborn](https://seaborn.pydata.org/)**                 | **[Surprise](https://surprise.readthedocs.io/en/stable/)**                |
+| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| <img src="Images/Logos/python.png" alt="Python Logo" width="100"> | <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100"> | <img src="Images/Logos/matplotlib.png" alt="Matplotlib Logo" width="100"> | <img src="Images/Logos/NLTK.png" alt="NLTK Logo" width="100"> | <img src="Images/Logos/pandas.png" alt="Pandas Logo" width="100"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100"> | <img src="Images/Logos/seaborn.png" alt="Seaborn Logo" width="100"> | <img src="Images/Logos/surprise.png" alt="Surprise Logo" width="100"> |
 
 ## Pipeline
 
