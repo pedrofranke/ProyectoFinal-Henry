@@ -12,7 +12,7 @@ Please ensure you download the required files to your local system to proceed wi
 ## How to Use the Data
 To use the data effectively, follow these steps:
 1. Download the necessary datasets from the Google Drive link provided above.
-2. Load the data into your analysis environment (e.g., Python, R, Excel). If using Python, you might use code similar to the following:
+2. Load the data into your analysis environment (e.g., Python, R, Excel). 
 3. Proceed with your data analysis or exploration as per the project requirements.
 
 
