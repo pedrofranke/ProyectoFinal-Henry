@@ -6,7 +6,7 @@ In this folder, you will find the files where the data was loaded, and the respe
 
 Three datasets were provided for the ETL process, which are:
 
-  * Business.parquet: It contains the following columns:
+  * Business: It contains the following columns:
 
     * business_id: Identifier for each restaurant.
     * name: Restaurant name.
@@ -20,10 +20,16 @@ Three datasets were provided for the ETL process, which are:
     * review_count: Number of reviews for the restaurant.
     * categories: Categories of the businesses
 
-  * review.parquet: It contains the following columns:
+  * review: It contains the following columns:
     *	review_id: Identifier for each review.
     * user_id: Identifier for each user.
     * business_id: Identifier for each restaurant.
     * stars: Rating of each review.
     * text: Review written by the user.
     * date: Date and time of the review.
+
+  * user: It contains the following columns:
+    * user_id: Identifier for each user
+    * name: Name of each user
+    * review_count: Number of reviews made by the user
+    * useful: Number of votes marked as useful by other users for that user.
