@@ -37,3 +37,5 @@ Three datasets were provided for the ETL process, which are:
 In this [link](https://drive.google.com/drive/u/0/folders/1WU5_DdsyMk8aHlTQtk5p1IecbJYhu-iU), you can find the datasets already transformed and in parquet format.
 
 The transformations in the datasets involved unnesting some columns as they were in dictionary format. Subsequently, the treatment of null or missing data was addressed, along with handling different data types within a column. Additionally, unnecessary columns, duplicate records, and columns were removed, and a dummy table was created. The entire dataset was then exported in parquet format for improved storage and compression.
+
+Si quieres ir a los archivos con los procesos de limpieza de cada dataset presiona los siguientes links: [ETL_business](ETL_business.ipynb), [ETL_reviews](ETL_reviews.ipynb) y [ETL_user](ETL_user.ipynb)
