@@ -33,3 +33,5 @@ Three datasets were provided for the ETL process, which are:
     * name: Name of each user
     * review_count: Number of reviews made by the user
     * useful: Number of votes marked as useful by other users for that user.
+
+In this [link](https://drive.google.com/drive/u/0/folders/1WU5_DdsyMk8aHlTQtk5p1IecbJYhu-iU), you can find the datasets already transformed and in parquet format.
