@@ -77,12 +77,11 @@ This project aims to provide our client with valuable information for strategic 
 
 | [Python](https://www.python.org/doc/) | [Matplotlib](https://matplotlib.org/stable/contents.html) | [NLTK](https://www.nltk.org/) | [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) | [Seaborn](https://seaborn.pydata.org/) | [Surprise](https://surprise.readthedocs.io/en/stable/) |
 | ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-| ![Python Logo](Images/Logos/python.png) | ![Matplotlib Logo](Images/Logos/matplotlib.png) | ![NLTK Logo](Images/Logos/NLTK.png) | ![Pandas Logo](Images/Logos/pandas.png) | ![Seaborn Logo](Images/Logos/seaborn.png) | ![Surprise Logo](Images/Logos/surprise.png) |
+| <img src="Images/Logos/python.png" alt="Python Logo" width="100"> | <img src="Images/Logos/matplotlib.png" alt="Matplotlib Logo" width="100"> | <img src="Images/Logos/NLTK.png" alt="NLTK Logo" width="100"> | <img src="Images/Logos/pandas.png" alt="Pandas Logo" width="100"> | <img src="Images/Logos/seaborn.png" alt="Seaborn Logo" width="100"> | <img src="Images/Logos/surprise.png" alt="Surprise Logo" width="100"> |
 
-
-| [Google Cloud](https://cloud.google.com/docs) | [Power BI](https://docs.microsoft.com/en-us/power-bi/) | [Trello](https://trello.com/) |
-| ----------------------- | ----------------------- | ----------------------- |
-| ![Google Cloud Logo](Images/Logos/google_cloud.png) | ![Power BI Logo](Images/Logos/powerbi.png) | ![Trello Logo](Images/Logos/trello.png) |
+| [Google Cloud Storage](https://cloud.google.com/storage/docs?hl=es-419) | [Power BI](https://docs.microsoft.com/en-us/power-bi/) | [Trello](https://trello.com/) | [StreamLit](https://docs.streamlit.io/) | [AirFlow](https://airflow.apache.org/docs/) | [BigQuery](https://cloud.google.com/bigquery/docs?hl=es-419) |
+| ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100"> | <img src="Images/Logos/trello.png" alt="Trello Logo" width="100"> | <img src="Images/Logos/streamlit.png" alt="StreamLit Logo" width="100"> | <img src="Images/Logos/airflow.png" alt="AirFlow Logo" width="100"> | <img src="Images/Logos/bigquery.png" alt="BigQuery Logo" width="100"> |
 
 ## Pipeline
 
