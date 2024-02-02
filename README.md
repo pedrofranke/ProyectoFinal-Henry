@@ -104,11 +104,11 @@ This project aims to provide our client with valuable information for strategic 
     <td align="center"><b>Pedro Franke</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="Images/Maxi.jpeg" alt="Maxi" width="100"/></td>
-    <td align="center"><img src="Images/Sebastian.jpeg" alt="Sebastian" width="100"/></td>
-    <td align="center"><img src="Images/Nico.jpeg" alt="Nico" width="100"/></td>
-    <td align="center"><img src="Images/Lucero.jpeg" alt="Lucero" width="100"/></td>
-    <td align="center"><img src="Images/Pedro.jpeg" alt="Pedro" width="100"/></td>
+    <td align="center"><img src="Images/Maxi.JPG" alt="Maxi" width="100"/></td>
+    <td align="center"><img src="Images/Seba.JPG" alt="Sebastian" width="100"/></td>
+    <td align="center"><img src="Images/Nico.JPG" alt="Nico" width="100"/></td>
+    <td align="center"><img src="Images/Lucero.JPG" alt="Lucero" width="100"/></td>
+    <td align="center"><img src="Images/Pedro.JPG" alt="Pedro" width="100"/></td>
   </tr>
   <tr>
     <td align="center">Data Engineer</td>
