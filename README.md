@@ -90,7 +90,7 @@ This project aims to provide our client with valuable information for strategic 
 ## Timeline
 
 <p align='center'>
-<img src="Images/Project_gantt.png" alt="Python Logo" width="500">
+<img src="Images/Project_gantt.png" alt="Python Logo" width="800">
 </p>
 
 ## Team Members
