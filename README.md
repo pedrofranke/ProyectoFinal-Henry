@@ -25,7 +25,7 @@ The primary objective of this project is to simulate a business consulting firm 
 
 ### Scope
 
-This project focuses on analyzing data within the states of California, New York, Texas, Florida & Pennsylvania during the period from 2016 to 2021. The mentioned States where chosen because of its mayor population, you can see the step guide [here](Scope.ipynb)
+This project focuses on analyzing data within the states of California, New York, Texas, Florida & Pennsylvania during the period from 2016 to 2021. The mentioned States where chosen because of its mayor population, you can see the step guide [here](Data%20Engineering/Scope.ipynb)
 
 ### Step-by-Step Guide
 
@@ -75,9 +75,14 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Selected Technologies
 
-| **[Python](https://www.python.org/doc/)**                  | **[Google Cloud](https://cloud.google.com/docs)**            | **[Matplotlib](https://matplotlib.org/stable/contents.html)**              | **[NLTK](https://www.nltk.org/)**                    | **[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)**                  | **[Power BI](https://docs.microsoft.com/en-us/power-bi/)**                | **[Seaborn](https://seaborn.pydata.org/)**                 | **[Surprise](https://surprise.readthedocs.io/en/stable/)**                |
-| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-| <img src="Images/Logos/python.png" alt="Python Logo" width="100"> | <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100"> | <img src="Images/Logos/matplotlib.png" alt="Matplotlib Logo" width="100"> | <img src="Images/Logos/NLTK.png" alt="NLTK Logo" width="100"> | <img src="Images/Logos/pandas.png" alt="Pandas Logo" width="100"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100"> | <img src="Images/Logos/seaborn.png" alt="Seaborn Logo" width="100"> | <img src="Images/Logos/surprise.png" alt="Surprise Logo" width="100"> |
+| [Python](https://www.python.org/doc/) | [Matplotlib](https://matplotlib.org/stable/contents.html) | [NLTK](https://www.nltk.org/) | [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) | [Seaborn](https://seaborn.pydata.org/) | [Surprise](https://surprise.readthedocs.io/en/stable/) |
+| ------------------------ | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| ![Python Logo](Images/Logos/python.png) | ![Matplotlib Logo](Images/Logos/matplotlib.png) | ![NLTK Logo](Images/Logos/NLTK.png) | ![Pandas Logo](Images/Logos/pandas.png) | ![Seaborn Logo](Images/Logos/seaborn.png) | ![Surprise Logo](Images/Logos/surprise.png) |
+
+
+| [Google Cloud](https://cloud.google.com/docs) | [Power BI](https://docs.microsoft.com/en-us/power-bi/) | [Trello](https://trello.com/) |
+| ----------------------- | ----------------------- | ----------------------- |
+| ![Google Cloud Logo](Images/Logos/google_cloud.png) | ![Power BI Logo](Images/Logos/powerbi.png) | ![Trello Logo](Images/Logos/trello.png) |
 
 ## Pipeline
 
