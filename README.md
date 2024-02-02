@@ -81,7 +81,7 @@ This project aims to provide our client with valuable information for strategic 
 
 | [Google Cloud Storage](https://cloud.google.com/storage/docs?hl=es-419) | [Power BI](https://docs.microsoft.com/en-us/power-bi/) | [Trello](https://trello.com/) | [StreamLit](https://docs.streamlit.io/) | [AirFlow](https://airflow.apache.org/docs/) | [BigQuery](https://cloud.google.com/bigquery/docs?hl=es-419) |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
-| <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100"> | <img src="Images/Logos/trello.png" alt="Trello Logo" width="100"> | <img src="Images/Logos/streamlit.png" alt="StreamLit Logo" width="100"> | <img src="Images/Logos/airflow.png" alt="AirFlow Logo" width="100"> | <img src="Images/Logos/bigquery.png" alt="BigQuery Logo" width="100"> |
+| <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100" align="center"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100" align="center"> | <img src="Images/Logos/trello.png" alt="Trello Logo" width="100" align="center"> | <img src="Images/Logos/streamlit.png" alt="StreamLit Logo" width="100" align="center"> | <img src="Images/Logos/airflow.png" alt="AirFlow Logo" width="100" align="center"> | <img src="Images/Logos/bigquery.png" alt="BigQuery Logo" width="100" align="center"> |
 
 ## Pipeline
 
