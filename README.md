@@ -9,6 +9,7 @@
   <ol>
     <li><a href="#Index">Index</a></li>
     <li><a href="#about-the-project">About the Project</a></li>
+    <li><a href="#key-performance-indicators">Key Performance Indicators</a></li>
     <li><a href="#selected-technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
     <li><a href="#Timeline">Project Timeline</a></li>
@@ -49,6 +50,28 @@ Build a dashboard presenting a full analysis of the data and evolution of key pe
 Finally, build a recommendation model to provide our client with a list of restaurants comparable to theirs.
 
 This project aims to provide our client with valuable information for strategic decision-making and a deeper understanding of the local restaurant market.
+
+## Key Performance Indicators
+
+1. **Customer Satisfaction Index:**
+   - *Definition:* Annual increase in the proportion of reviews with positive and neutral sentiment compared to the total number of reviews.
+   - *Objective:* +10%.
+
+2. **Popularity Index:**
+   - *Definition:* Annual increase in the absolute number of reviews.
+   - *Objective:* +10%.
+
+3. **Seasonal Growth Index:**
+   - *Definition:* Annual increase in the absolute number of visits during peak seasons (April to July).
+   - *Objective:* +7%.
+
+4. **Supply Index:**
+   - *Definition:* Annual increase in the absolute number of businesses with reviews.
+   - *Objective:* +5%.
+
+5. **Market Index:**
+   - *Definition:* Annual increase in the average number of reviews.
+   - *Objective:* +3%.
 
 ## Selected Technologies
 
