@@ -10,13 +10,13 @@ st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", un
 st.markdown("<hr>", unsafe_allow_html=True)
 
 def read_bases():
-    with open('../raw_to_inner.pkl', 'rb') as f:
+    with open('raw_to_inner.pkl', 'rb') as f:
         raw_to_inner = pickle.load(f)
 
-    with open('../inner_to_raw.pkl', 'rb') as f:
+    with open('inner_to_raw.pkl', 'rb') as f:
         inner_to_raw = pickle.load(f)
     
-    with gzip.open('../modelo_knn.gz', 'rb') as f:
+    with gzip.open('modelo_knn.gz', 'rb') as f:
         knn = joblib.load(f)
 
     df_rest = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_restaurants.parquet')
