@@ -9,7 +9,7 @@ st.sidebar.title("Navigation")
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
-def read_bases():
+def read_base():
     with open('raw_to_inner.pkl', 'rb') as f:
         raw_to_inner = pickle.load(f)
 
@@ -23,7 +23,7 @@ def read_bases():
     
     return raw_to_inner, inner_to_raw, knn, df_rest
 
-raw_to_inner, inner_to_raw, knn, df_rest = read_bases()
+raw_to_inner, inner_to_raw, knn, df_rest = read_base()
 
 def get_similar_businesses(business_id,cluster):
     # eleccion del top 5
