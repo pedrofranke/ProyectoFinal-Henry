@@ -10,8 +10,8 @@ st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", un
 st.markdown("<hr>", unsafe_allow_html=True)
 
 def read_bases():
-    df_rest = pd.read_parquet('../Data Engineering/Unification/Final Unifications/df_restaurants.parquet')
-    df_unificado = pd.read_parquet('../Data Engineering/Unification/Final Unifications/df_reduct_unified.parquet')
+    df_rest = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_restaurants.parquet')
+    df_unificado = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_reduct_unified.parquet')
     
     return df_rest, df_unificado
 
