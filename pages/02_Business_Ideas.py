@@ -1,4 +1,4 @@
-import streamlit as st
+'''import streamlit as st
 import pickle
 import gzip
 import joblib
@@ -42,3 +42,4 @@ cluster = df_rest[df_rest['business_id'] == business_id]['cluster'].values[0]
 top_recommendations = get_similar_businesses(business_id,cluster)
 
 st.dataframe(top_recommendations)
+'''
