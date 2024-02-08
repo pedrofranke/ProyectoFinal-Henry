@@ -2,6 +2,6 @@ div.st-emotion-cache-cnbvxy.e1nzilvr5 {
     text-align: justify;
 }
 
-div[data-testid="stExpander"] div[role="button"] p {
+div[data-testid="stExpander"] p{
     font-size: 4rem;
 }
