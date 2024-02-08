@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
+import pyperclip
 warnings.filterwarnings("ignore")
 
 st.sidebar.title("Navigation")
@@ -57,8 +58,9 @@ def loc_recommend(user_preferences):
 
     # toma de datos de los ids seleccionados
     recommended_restaurants = df_rest[df_rest['business_id'].isin(indices)].drop_duplicates(subset='business_id').reset_index(drop=True)
-    recommended_restaurants.drop(columns=['%_competition','cluster_rating','cluster_name','review_count'],inplace=True)
-    
+    recommended_restaurants.drop(columns=['%_competition','cluster_rating','cluster_name','review_count','state'],inplace=True)
+    showoff = ['business_name','category','avg_rating','county','city','address','business_id']
+    recommended_restaurants = recommended_restaurants[showoff]
     return recommended_restaurants
 
 categories = df_rest.category.unique()
@@ -76,4 +78,20 @@ user_preferences = {
     'category':type,
     'avg_rating': numero}
 
-st.dataframe(loc_recommend(user_preferences))
+rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
+result = loc_recommend(user_preferences)
+
+st.dataframe(result.rename(columns=rename).drop(columns='business_id'))
+
+business_names = result.business_name
+
+selected_name = st.selectbox("Choose business to explore", business_names)
+copytext = result[result.business_name == selected_name].business_id.values[0]
+
+def copy_text(texto):
+    pyperclip.copy(texto)
+    st.success("Copied to clipboard")
+
+if st.button("Copy text"):
+    copy_text(copytext)
+    st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
