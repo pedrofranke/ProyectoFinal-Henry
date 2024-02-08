@@ -31,25 +31,6 @@ st.sidebar.title("Navigation")
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
-# INTRODUCCION
-with st.expander('Why is it important?',expanded=True):
-    st.subheader("Who Are Our Competitors? 🔍")
-    st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
-
-    st.subheader("What Defines the Local Market? 🏙️")
-    st.write("Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.")
-
-    st.subheader("How Developed is the Market? 📈")
-    st.write("Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.")
-
-    st.subheader("What Sets Us Apart? 🚀")
-    st.write("While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.")
-
-    st.markdown("<hr>", unsafe_allow_html=True)
-    # Call to Action
-    st.subheader("Ready to Get Started?")
-    st.write("Discover your competition and gain insights to drive your restaurant's success!")
-
 # FUNCIONES
 def read_bases():
     columns = ['business_id', 'business_name', 'category', 'avg_rating', 'address',
@@ -105,35 +86,33 @@ def loc_recommend(user_preferences):
     return recommended_restaurants
 
 # MODEL INTERACTION
-if st.button("Explore the Model"):
+categories = df_rest.category.unique()
+type = st.selectbox("Choose a restaurant type", categories,index=3)
 
-    categories = df_rest.category.unique()
-    type = st.selectbox("Choose a restaurant type", categories,index=3)
+states = df_rest.state.unique()
+state = st.selectbox("Choose a restaurant type", states)
 
-    states = df_rest.state.unique()
-    state = st.selectbox("Choose a restaurant type", states)
+counties = df_rest[df_rest.state == state].county.unique()
+county = st.multiselect('Choose desired counties:', counties)
 
-    counties = df_rest[df_rest.state == state].county.unique()
-    county = st.multiselect('Choose desired counties:', counties)
+numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
 
-    numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
+user_preferences = {
+    'category':type,
+    'avg_rating': numero}
 
-    user_preferences = {
-        'category':type,
-        'avg_rating': numero}
+rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
+result = loc_recommend(user_preferences)
 
-    rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
-    result = loc_recommend(user_preferences)
+st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True,height=220)
 
-    st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True,height=220)
+business_names = result.business_name
 
-    business_names = result.business_name
+selected_name = st.selectbox("Choose business to explore", business_names)
+copytext = result[result.business_name == selected_name].business_id.values[0]
 
-    selected_name = st.selectbox("Choose business to explore", business_names)
-    copytext = result[result.business_name == selected_name].business_id.values[0]
+st.write('Reference Business ID:')
+Path = f'''{copytext}'''
+st.code(Path, language="python")
 
-    st.write('Reference Business ID:')
-    Path = f'''{copytext}'''
-    st.code(Path, language="python")
-
-    st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
+st.link_button("Go to Business Idea Recommendations", './Business_Ideas')

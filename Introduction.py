@@ -33,22 +33,45 @@ We are a consultancy specialized in business feasibility, and we present our art
 with open("style.css") as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
 
-# Sección de dos columnas
-col1, col2 = st.columns(2)
+# COMPETITION MODEL
+with st.expander('Identify your Competition',expanded=True):
+    st.subheader("Who Are Our Competitors? 🔍")
+    st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
 
-# Sección 1: Business Ideas
-with col2:
-    st.markdown("<h2 style='text-align: center;'>Business Ideas</h2>", unsafe_allow_html=True)
-    st.markdown("The objective of this section is to recommend restaurants similar to your restaurant idea but on other locations, so that you can visit them and obtain business and design ideas.")
-    st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
+    st.subheader("What Defines the Local Market? 🏙️")
+    st.write("Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.")
 
-# Sección 2: Competition
-with col1:
-    st.markdown("<h2 style='text-align: center;'>Competition</h2>", unsafe_allow_html=True)
-    st.markdown("""
+    st.subheader("How Developed is the Market? 📈")
+    st.write("Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.")
 
-    The objective of this section is to recommend restaurants that are direct competitors according to the location and type of restaurant chosen, 
-    so that the client can visit them and deepen their knowledge of the market.
-    """)
-    st.link_button("Go to Competition identification", './Competition_Identification')
+    st.subheader("What Sets Us Apart? 🚀")
+    st.write("While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.")
 
+    st.markdown("<hr>", unsafe_allow_html=True)
+    # Call to Action
+    st.subheader("Ready to Get Started?")
+    st.write("Discover your competition and gain insights to drive your restaurant's success!")
+
+    st.link_button("Explore the Competition model", './Competition_Identification')
+
+with st.expander('Understanding Your Audience', expanded=True):
+    # Preguntas y respuestas sobre la temática
+    st.subheader("What is Our Target Audience? 🎯")
+    st.write("Understanding your target audience is essential for effective marketing strategies. Our model helps you identify and analyze the characteristics of your audience.")
+
+    st.subheader("How Do We Create Brand Identity? 🌟")
+    st.write("Building a strong brand identity is crucial for connecting with your audience and standing out in the market. Our model provides insights and recommendations for brand development.")
+
+    st.subheader("How Can Design Orient Us? 🎨")
+    st.write("Design plays a significant role in shaping perceptions and attracting customers. Our model offers guidance on design principles and aesthetics to enhance brand appeal.")
+
+    st.subheader("Are There Essential Attributes? 💡")
+    st.write("Certain attributes are more impactful than others in influencing consumer behavior. Our model helps you identify and prioritize the key attributes for your brand.")
+
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+    # Llamado a la acción
+    st.subheader("Ready to Connect with Your Audience?")
+    st.write("Discover insights and strategies to build a strong brand and engage your target audience!")
+
+    st.link_button("Explore the Research model", './Business_Ideas')

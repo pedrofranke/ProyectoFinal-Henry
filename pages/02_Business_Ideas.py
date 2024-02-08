@@ -29,25 +29,7 @@ st.markdown("<h1 style='text-align: center;'>Search for Key Market Ideas</h1>", 
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # INTRODUCTION
-with st.expander('Understanding Your Audience', expanded=True):
-    # Preguntas y respuestas sobre la temática
-    st.subheader("What is Our Target Audience? 🎯")
-    st.write("Understanding your target audience is essential for effective marketing strategies. Our model helps you identify and analyze the characteristics of your audience.")
 
-    st.subheader("How Do We Create Brand Identity? 🌟")
-    st.write("Building a strong brand identity is crucial for connecting with your audience and standing out in the market. Our model provides insights and recommendations for brand development.")
-
-    st.subheader("How Can Design Orient Us? 🎨")
-    st.write("Design plays a significant role in shaping perceptions and attracting customers. Our model offers guidance on design principles and aesthetics to enhance brand appeal.")
-
-    st.subheader("Are There Essential Attributes? 💡")
-    st.write("Certain attributes are more impactful than others in influencing consumer behavior. Our model helps you identify and prioritize the key attributes for your brand.")
-
-    st.markdown("<hr>", unsafe_allow_html=True)
-
-    # Llamado a la acción
-    st.subheader("Ready to Connect with Your Audience?")
-    st.write("Discover insights and strategies to build a strong brand and engage your target audience!")
 
 # READ DATA
 def read_base():
@@ -57,20 +39,26 @@ def read_base():
     return df_rest, df_results
 
 df_rest, df_results = read_base()
-
+showoff = ['business_name','category','avg_rating','state','county','city','address']
 def get_similar_businesses(business_id):
     # eleccion del top 5
     searched_id = business_id
     related = df_results[df_results['business_id'] == searched_id].related.tolist()[0]
-    result = df_rest[df_rest['business_id'].isin(related)].drop(columns=['%_competition','longitude','latitude','cluster_rating','cluster_name','review_count'])
+    result = df_rest[df_rest['business_id'].isin(related)].drop(columns=['%_competition','longitude','latitude','cluster_rating','cluster_name','review_count','cluster','postal_code'])
+    result = result[showoff]
     return result
 
-if st.button("Explore the Model"):
+user_input = st.text_input("Enter your restaurant ID here") 
 
-    user_input = st.text_input("Enter your text here")  
+st.write('You can use 0x80c2c84fc6975997:0x69176b0c7d86d5a7 as an example')
 
-    if user_input:
-        rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
-        result = get_similar_businesses(user_input)
+rename = {'business_name':'Restaurant','category':'Category','state':'State','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
 
-        st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True,height=220)
+if user_input:
+    st.write('Selected Restaurant:')
+    searched = df_rest[df_rest.business_id == user_input]
+    searched = searched[showoff]
+    st.dataframe(searched.rename(columns=rename),hide_index=True,height=80)
+    result = get_similar_businesses(user_input)
+    st.write('Recommended restaurants to visit:')
+    st.dataframe(result.rename(columns=rename),hide_index=True,height=220)
