@@ -16,8 +16,7 @@ st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", un
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Introducción
-st.header('Why is it important?')
-with st.expander('Algo',expanded=True):
+with st.expander('Why is it important?',expanded=True):
     st.subheader("Who Are Our Competitors? 🔍")
     st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
 
