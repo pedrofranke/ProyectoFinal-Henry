@@ -8,6 +8,6 @@ div {
     color: #FFFFFF;
 }
 
-/*div.appview-container.st-emotion-cache-1wrcr25.ea3mdgi9 {
-    color: #FFFFFF;
-}*/
+div.row-widget.stLinkButton {
+    background-color: #263646;
+}
