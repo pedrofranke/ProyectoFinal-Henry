@@ -81,7 +81,7 @@ user_preferences = {
 rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
 result = loc_recommend(user_preferences)
 
-st.dataframe(result.rename(columns=rename).drop(columns='business_id'))
+st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True)
 
 business_names = result.business_name
 
