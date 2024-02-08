@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
-import pyperclip
 warnings.filterwarnings("ignore")
 
 st.sidebar.title("Navigation")
