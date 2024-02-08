@@ -39,7 +39,7 @@ To check-out the ETL you can click in this [link](/Data%20Engineering/) and see 
 
 In this stage, explore and analyze the data to better understand trends and patterns.
 
-To check-out the ETL you can click in this [link](/Data%20Analysis/) and see the ETL model analysis.
+To check-out the EDA you can click in this [link](/Data%20Analysis/) and see the EDA model analysis.
 
 #### Step 3: Dashboard
 
