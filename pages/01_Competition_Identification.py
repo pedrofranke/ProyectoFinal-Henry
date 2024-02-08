@@ -88,10 +88,8 @@ business_names = result.business_name
 selected_name = st.selectbox("Choose business to explore", business_names)
 copytext = result[result.business_name == selected_name].business_id.values[0]
 
-def copy_text(texto):
-    pyperclip.copy(texto)
-    st.success("Copied to clipboard")
+st.write('Reference Business ID:')
+Path = f'''{copytext}'''
+st.code(Path, language="python")
 
-if st.button("Copy text"):
-    copy_text(copytext)
-    st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
+st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
