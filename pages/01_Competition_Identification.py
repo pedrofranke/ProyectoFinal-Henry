@@ -10,12 +10,12 @@ st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", un
 st.markdown("<hr>", unsafe_allow_html=True)
 
 def read_bases():
-    df_rest = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_restaurants.parquet')
-    df_unificado = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_reduct_unified.parquet')
-    
-    return df_rest, df_unificado
+    columns = ['business_id', 'business_name', 'category', 'avg_rating', 'address',
+       'state', 'city', 'county','%_competition','cluster_name','cluster_rating','review_count']
+    df = pd.read_parquet('Data Engineering/Unification/df_restaurants.parquet',columns=columns)
+    return df
 
-df_rest, df_unificado = read_bases()
+df_rest = read_bases()
 
 def loc_recommend(user_preferences):
     #relacion de categorias
@@ -24,7 +24,11 @@ def loc_recommend(user_preferences):
        'South American':11, 'Night':5, 'African':9, 'Breakfast':1}
     
     # generacion de dataframes basicos
-    df = df_unificado[(df_unificado.county == user_preferences['county']) & (df_unificado.state == user_preferences['state'])]
+    if len(county) == 0:
+        df = df_rest[df_rest.state == state]
+    else:
+        df = df_rest[(df_rest.county.isin(county)) & (df_rest.state == state)]
+
     content_features = df[['avg_rating','category']]
     user_preferences = pd.DataFrame(user_preferences,index=[0])
     categories = pd.DataFrame(columns=mapper.keys())
@@ -39,7 +43,7 @@ def loc_recommend(user_preferences):
     
     # bases finales
     content_features.drop(columns='category',inplace=True)
-    user_preferences = pd.merge(user_preferences.drop(columns=['category','state','county']),categories,left_index=True,right_index=True)
+    user_preferences = pd.merge(user_preferences.drop(columns=['category']),categories,left_index=True,right_index=True)
 
     # Matrices de similitud
     similarity_scores = cosine_similarity(content_features, user_preferences).flatten()
@@ -53,14 +57,23 @@ def loc_recommend(user_preferences):
 
     # toma de datos de los ids seleccionados
     recommended_restaurants = df_rest[df_rest['business_id'].isin(indices)].drop_duplicates(subset='business_id').reset_index(drop=True)
-    recommended_restaurants.drop(columns=['%_competition','longitude','latitude','cluster','cluster_rating','cluster_name','review_count'],inplace=True)
+    recommended_restaurants.drop(columns=['%_competition','cluster_rating','cluster_name','review_count'],inplace=True)
     
     return recommended_restaurants
 
+categories = df_rest.category.unique()
+type = st.selectbox("Choose a restaurant type", categories)
+
+states = df_rest.state.unique()
+state = st.selectbox("Choose a restaurant type", states)
+
+counties = df_rest[df_rest.state == state].county.unique()
+county = st.multiselect('Choose counties:', counties)
+
+numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
+
 user_preferences = {
-    'category':'Family',
-    'state': 'Florida',
-    'county':'Pinellas County',
-    'avg_rating': 4.8}
+    'category':type,
+    'avg_rating': numero}
 
 st.dataframe(loc_recommend(user_preferences))
