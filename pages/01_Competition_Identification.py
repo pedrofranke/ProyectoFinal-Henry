@@ -9,6 +9,26 @@ st.sidebar.title("Navigation")
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
+# Introducción
+with st.expander("Who Are Our Competitors?"):
+    st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
+
+st.subheader("What Defines the Local Market?")
+st.write("Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.")
+
+st.subheader("How Developed is the Market?")
+st.write("Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.")
+
+st.subheader("What Sets Us Apart?")
+st.write("While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.")
+
+st.markdown("<hr>", unsafe_allow_html=True)
+# Call to Action
+st.subheader("Ready to Get Started?")
+st.write("Discover your competition and gain insights to drive your restaurant's success!")
+
+
+
 def read_bases():
     columns = ['business_id', 'business_name', 'category', 'avg_rating', 'address',
        'state', 'city', 'county','%_competition','cluster_name','cluster_rating','review_count']
@@ -62,33 +82,37 @@ def loc_recommend(user_preferences):
     recommended_restaurants = recommended_restaurants[showoff]
     return recommended_restaurants
 
-categories = df_rest.category.unique()
-type = st.selectbox("Choose a restaurant type", categories)
+# Button to Proceed to the Model
+if st.button("Explore the Model"):
+    # Aquí colocarías el código para ejecutar tu modelo de machine learning
 
-states = df_rest.state.unique()
-state = st.selectbox("Choose a restaurant type", states)
+    categories = df_rest.category.unique()
+    type = st.selectbox("Choose a restaurant type", categories,index=3)
 
-counties = df_rest[df_rest.state == state].county.unique()
-county = st.multiselect('Choose counties:', counties)
+    states = df_rest.state.unique()
+    state = st.selectbox("Choose a restaurant type", states)
 
-numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
+    counties = df_rest[df_rest.state == state].county.unique()
+    county = st.multiselect('Choose desired counties:', counties)
 
-user_preferences = {
-    'category':type,
-    'avg_rating': numero}
+    numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
 
-rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
-result = loc_recommend(user_preferences)
+    user_preferences = {
+        'category':type,
+        'avg_rating': numero}
 
-st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True)
+    rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
+    result = loc_recommend(user_preferences)
 
-business_names = result.business_name
+    st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True)
 
-selected_name = st.selectbox("Choose business to explore", business_names)
-copytext = result[result.business_name == selected_name].business_id.values[0]
+    business_names = result.business_name
 
-st.write('Reference Business ID:')
-Path = f'''{copytext}'''
-st.code(Path, language="python")
+    selected_name = st.selectbox("Choose business to explore", business_names)
+    copytext = result[result.business_name == selected_name].business_id.values[0]
 
-st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
+    st.write('Reference Business ID:')
+    Path = f'''{copytext}'''
+    st.code(Path, language="python")
+
+    st.link_button("Go to Business Idea Recommendations", './Business_Ideas')
