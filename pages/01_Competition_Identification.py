@@ -10,12 +10,28 @@ def local_css(file_name):
 
 local_css("style.css")
 
+st.markdown(
+    """
+    <style>
+        [data-testid="stSidebarNav"]::before {
+            content: "ConsultART";
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 30px;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.sidebar.title("Navigation")
 
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
-# Introducción
+# INTRODUCCION
 with st.expander('Why is it important?',expanded=True):
     st.subheader("Who Are Our Competitors? 🔍")
     st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
@@ -34,8 +50,7 @@ with st.expander('Why is it important?',expanded=True):
     st.subheader("Ready to Get Started?")
     st.write("Discover your competition and gain insights to drive your restaurant's success!")
 
-
-
+# FUNCIONES
 def read_bases():
     columns = ['business_id', 'business_name', 'category', 'avg_rating', 'address',
        'state', 'city', 'county','%_competition','cluster_name','cluster_rating','review_count']
@@ -89,9 +104,8 @@ def loc_recommend(user_preferences):
     recommended_restaurants = recommended_restaurants[showoff]
     return recommended_restaurants
 
-# Button to Proceed to the Model
+# MODEL INTERACTION
 if st.button("Explore the Model"):
-    # Aquí colocarías el código para ejecutar tu modelo de machine learning
 
     categories = df_rest.category.unique()
     type = st.selectbox("Choose a restaurant type", categories,index=3)
@@ -111,7 +125,7 @@ if st.button("Explore the Model"):
     rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
     result = loc_recommend(user_preferences)
 
-    st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True)
+    st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True,height=220)
 
     business_names = result.business_name
 

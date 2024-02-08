@@ -1,7 +1,16 @@
-div.st-emotion-cache-cnbvxy.e1nzilvr5 {
+div[data-testid="element-container"] div div p {
     text-align: justify;
 }
 
 div[data-testid="stExpander"] details summary p{
-    font-size: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div[data-testid="stVerticalBlock"] div div div div div h3 div span {
+    font-size: 20px;
+}
+
+div[data-testid="stVerticalBlock"] div div label div p {
+    font-size: 20px;
 }
