@@ -4,28 +4,36 @@ from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings("ignore")
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+local_css("style.css")
+
 st.sidebar.title("Navigation")
 
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Introducción
-with st.expander("Who Are Our Competitors?"):
+st.header('Why is it important?')
+with st.expander('Algo',expanded=True):
+    st.subheader("Who Are Our Competitors? 🔍")
     st.write("Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.")
 
-st.subheader("What Defines the Local Market?")
-st.write("Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.")
+    st.subheader("What Defines the Local Market? 🏙️")
+    st.write("Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.")
 
-st.subheader("How Developed is the Market?")
-st.write("Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.")
+    st.subheader("How Developed is the Market? 📈")
+    st.write("Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.")
 
-st.subheader("What Sets Us Apart?")
-st.write("While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.")
+    st.subheader("What Sets Us Apart? 🚀")
+    st.write("While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.")
 
-st.markdown("<hr>", unsafe_allow_html=True)
-# Call to Action
-st.subheader("Ready to Get Started?")
-st.write("Discover your competition and gain insights to drive your restaurant's success!")
+    st.markdown("<hr>", unsafe_allow_html=True)
+    # Call to Action
+    st.subheader("Ready to Get Started?")
+    st.write("Discover your competition and gain insights to drive your restaurant's success!")
 
 
 
