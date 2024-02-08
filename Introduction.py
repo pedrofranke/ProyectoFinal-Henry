@@ -20,7 +20,7 @@ st.markdown(
 )
 
 st.markdown("<h1 style='text-align: center;'>Business Intelligence Consulting</h1>", unsafe_allow_html=True)
-st.image("Images/Logo-Horizontal.png", use_column_width=True)
+st.image("Images/Logo-NOBKG.png", use_column_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.title("Introduction")
