@@ -1,7 +1,6 @@
 # <p align="center"> <img src="Images/Logo-Horizontal.png" alt="Texto Alternativo" width="700"/> </p>
 
 # <h1 align=center> **Restaurant Analysis and Consulting Project** </h1>
-<hr>
 
 ## Index
 
@@ -19,8 +18,6 @@
     <li><a href="#team-members">Team Members</a></li>
   </ol>
 </details>
-
-<hr>
 
 ## About the Project
 
@@ -56,8 +53,6 @@ Finally, build a recommendation model to provide our client with a list of resta
 
 This project aims to provide our client with valuable information for strategic decision-making and a deeper understanding of the local restaurant market.
 
-<hr>
-
 ## Key Performance Indicators
 
 1. **Customer Satisfaction Index:**
@@ -80,8 +75,6 @@ This project aims to provide our client with valuable information for strategic 
    - *Definition:* Annual decrease in the reviews rating average.
    - *Objective:* -3%.
 
-<hr>
-
 ## Selected Technologies
 
 | [Python](https://www.python.org/doc/) | [Matplotlib](https://matplotlib.org/stable/contents.html) | [NLTK](https://www.nltk.org/) | [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) | [Seaborn](https://seaborn.pydata.org/) | [Surprise](https://surprise.readthedocs.io/en/stable/) |
@@ -91,8 +84,6 @@ This project aims to provide our client with valuable information for strategic 
 | [Google Cloud](https://cloud.google.com/storage/docs?hl=es-419) | [Power BI](https://docs.microsoft.com/en-us/power-bi/) | [Trello](https://trello.com/) | [StreamLit](https://docs.streamlit.io/) | [AirFlow](https://airflow.apache.org/docs/) | [BigQuery](https://cloud.google.com/bigquery/docs?hl=es-419) |
 | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | <img src="Images/Logos/google_cloud.png" alt="Google Cloud Logo" width="100" align="center"> | <img src="Images/Logos/powerbi.png" alt="Power BI Logo" width="100" align="center"> | <img src="Images/Logos/trello.png" alt="Trello Logo" width="100" align="center"> | <img src="Images/Logos/streamlit.png" alt="StreamLit Logo" width="100" align="center"> | <img src="Images/Logos/airflow.png" alt="AirFlow Logo" width="100" align="center"> | <img src="Images/Logos/bigquery.png" alt="BigQuery Logo" width="100" align="center"> |
-
-<hr>
 
 ## Pipeline
 
@@ -105,8 +96,6 @@ This project aims to provide our client with valuable information for strategic 
 <p align='center'>
 <img src="Images/gantt.png" alt="Python Logo" width="800">
 </p>
-
-<hr>
 
 ## Analytics Dashboard
 
@@ -140,8 +129,6 @@ To get started, follow these steps:
 Get key business insights!
 
 [Explore the Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGQ2NzFhYzUtZTI2Yi00OGI0LTg4OGEtZmY3YmY2MzYxNzIxIiwidCI6IjhmMTcwZmEzLTc0ZGEtNDQwYy04ODkyLTFiYTU1ZGU2NDE2YSIsImMiOjR9&embedImagePlaceholder=true)
-
-<hr>
 
 ## Recommendation System
 
@@ -189,8 +176,6 @@ The recommendation system is based in two user-linked systems:
 Discover your competition and gain insights to drive your restaurant's success!
 
 [Explore the model](https://consultarte.streamlit.app/)
-
-<hr>
 
 ## Team Members
 
