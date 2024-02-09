@@ -56,8 +56,8 @@ This project aims to provide our client with valuable information for strategic 
 ## Key Performance Indicators
 
 1. **Customer Satisfaction Index:**
-   - *Definition:* Annual increase in the proportion of reviews with positive and neutral sentiment compared to the total number of reviews.
-   - *Objective:* +10%.
+   - *Definition:* Annual decrease in the proportion of reviews with positive and neutral sentiment compared to the total number of reviews.
+   - *Objective:* -10%.
 
 2. **Popularity Index:**
    - *Definition:* Annual increase in the absolute number of reviews.
@@ -68,12 +68,12 @@ This project aims to provide our client with valuable information for strategic 
    - *Objective:* +7%.
 
 4. **Supply Index:**
-   - *Definition:* Annual increase in the absolute number of businesses with reviews.
-   - *Objective:* +5%.
+   - *Definition:* Annual decrease in the absolute number of businesses with reviews.
+   - *Objective:* -5%.
 
 5. **Market Index:**
-   - *Definition:* Annual increase in the average number of reviews.
-   - *Objective:* +3%.
+   - *Definition:* Annual decrease in the average number of reviews.
+   - *Objective:* -3%.
 
 ## Selected Technologies
 
