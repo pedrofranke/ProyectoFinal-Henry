@@ -13,6 +13,8 @@
     <li><a href="#selected-technologies">Selected Technologies</a></li>
     <li><a href="#Pipeline">Project Pipeline</a></li>
     <li><a href="#Timeline">Project Timeline</a></li>
+    <li><a href="#Analytics-Dashboard">Analytics Dashboard</a></li>
+    <li><a href="#Recommendation-System">Recommendation System</a></li>
     <li><a href="#team-members">Team Members</a></li>
   </ol>
 </details>
@@ -94,6 +96,56 @@ This project aims to provide our client with valuable information for strategic 
 <p align='center'>
 <img src="Images/gantt.png" alt="Python Logo" width="800">
 </p>
+
+## Analytics Dashboard
+
+
+
+## Recommendation System
+
+The recommendation system is based in two user-linked systems:
+
+### Identify your Competition
+
+<details>
+<summary><b>Why is it important?</b></summary>
+
+- **Who Are Our Competitors?** 🔍
+  Understanding who your competitors are is crucial for success in the restaurant industry. Our machine learning model helps you identify and analyze your competitors.
+
+- **What Defines the Local Market?** 🏙️
+  Every restaurant operates within a unique local market. Our model considers various factors to help you understand the dynamics of your specific market.
+
+- **How Developed is the Market?** 📈
+  Assessing the level of development in your market can provide valuable insights for strategic decision-making. Our model evaluates market maturity and competitiveness.
+
+- **What Sets Us Apart?** 🚀
+  While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.
+
+<hr>
+
+### Understanding Your Audience
+
+<details>
+<summary><b>Why is it important?</b></summary>
+
+- **What is Our Target Audience?** 🎯
+  Understanding your target audience is essential for effective marketing strategies. Our model helps you identify and analyze the characteristics of your audience.
+
+- **How Do We Create Brand Identity?** 🌟
+  Building a strong brand identity is crucial for connecting with your audience and standing out in the market. Our model provides insights and recommendations for brand development.
+
+- **How Can Design Orient Us?** 🎨
+  Design plays a significant role in shaping perceptions and attracting customers. Our model offers guidance on design principles and aesthetics to enhance brand appeal.
+
+- **Are There Essential Attributes?** 💡
+  Certain attributes are more impactful than others in influencing consumer behavior. Our model helps you identify and prioritize the key attributes for your brand.
+
+### Ready to Get Started?
+Discover your competition and gain insights to drive your restaurant's success!
+
+[Explore the model](https://consultarte.streamlit.app/)
+</details>
 
 ## Team Members
 
