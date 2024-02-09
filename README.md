@@ -99,7 +99,36 @@ This project aims to provide our client with valuable information for strategic 
 
 ## Analytics Dashboard
 
+### Purpose
 
+The primary purpose of this dashboard is to give key insights of the restaurant business in USA, while showing the competition and specializations in each location.
+
+<details>
+<summary><b>Key Features</b></summary>
+
+- **Interactive Visualizations:** Explore data dynamically through interactive charts, graphs, and maps.
+- **Customizable Filters:** Tailor the dashboard to your specific needs by adjusting filters and parameters.
+- **Real-time Updates:** Access up-to-date information and insights for informed decision-making.
+- **User-friendly Interface:** Navigate the dashboard effortlessly with an intuitive and user-friendly design.
+
+</details>
+
+<details>
+<summary><b>How to use it?</b></summary>
+
+To get started, follow these steps:
+
+1. **Select Filters:** Use the dropdown menus or sliders to customize the data displayed.
+2. **Interact with Visuals:** Hover over charts for detailed information or click on elements to filter data further.
+3. **Explore Tabs:** Navigate between different sections or tabs to explore various aspects of the data.
+4. **Export Data:** Export visualizations or data tables for further analysis or reporting.
+
+</details>
+
+### Ready to Get Started?
+Get key business insights!
+
+[Explore the Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGQ2NzFhYzUtZTI2Yi00OGI0LTg4OGEtZmY3YmY2MzYxNzIxIiwidCI6IjhmMTcwZmEzLTc0ZGEtNDQwYy04ODkyLTFiYTU1ZGU2NDE2YSIsImMiOjR9&embedImagePlaceholder=true)
 
 ## Recommendation System
 
