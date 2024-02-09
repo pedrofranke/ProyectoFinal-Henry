@@ -123,7 +123,6 @@ The recommendation system is based in two user-linked systems:
   While knowing your competitors is essential, it's equally important to understand your unique value proposition. Our model helps you identify your strengths and points of differentiation.
 
 </details>
-<hr>
 
 ### Understanding Your Audience
 
@@ -143,7 +142,6 @@ The recommendation system is based in two user-linked systems:
   Certain attributes are more impactful than others in influencing consumer behavior. Our model helps you identify and prioritize the key attributes for your brand.
 
 </details>
-<hr>
 
 ### Ready to Get Started?
 Discover your competition and gain insights to drive your restaurant's success!
