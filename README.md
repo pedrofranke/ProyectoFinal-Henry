@@ -77,7 +77,7 @@ This project aims to provide our client with valuable information for strategic 
    - *Objective:* -5%.
 
 5. **Market Index:**
-   - *Definition:* Annual decrease in the average number of reviews.
+   - *Definition:* Annual decrease in the reviews rating average.
    - *Objective:* -3%.
 
 <hr>
