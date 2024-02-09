@@ -4,11 +4,34 @@ from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings("ignore")
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+local_css("style.css")
+
+st.markdown(
+    """
+    <style>
+        [data-testid="stSidebarNav"]::before {
+            content: "ConsultART";
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 30px;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.sidebar.title("Navigation")
 
 st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
+# FUNCIONES
 def read_bases():
     columns = ['business_id', 'business_name', 'category', 'avg_rating', 'address',
        'state', 'city', 'county','%_competition','cluster_name','cluster_rating','review_count']
@@ -62,14 +85,15 @@ def loc_recommend(user_preferences):
     recommended_restaurants = recommended_restaurants[showoff]
     return recommended_restaurants
 
+# MODEL INTERACTION
 categories = df_rest.category.unique()
-type = st.selectbox("Choose a restaurant type", categories)
+type = st.selectbox("Choose a restaurant type", categories,index=3)
 
 states = df_rest.state.unique()
 state = st.selectbox("Choose a restaurant type", states)
 
 counties = df_rest[df_rest.state == state].county.unique()
-county = st.multiselect('Choose counties:', counties)
+county = st.multiselect('Choose desired counties:', counties)
 
 numero = st.number_input("Provide an average rating:", min_value=1.0, max_value=5.0, step=0.1,value=4.8)
 
@@ -80,7 +104,8 @@ user_preferences = {
 rename = {'business_name':'Restaurant','category':'Category','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
 result = loc_recommend(user_preferences)
 
-st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True)
+st.write('Recommended restaurants to visit:')
+st.dataframe(result.rename(columns=rename).drop(columns='business_id'),hide_index=True,height=220)
 
 business_names = result.business_name
 

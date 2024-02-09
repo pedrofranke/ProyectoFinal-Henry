@@ -1,45 +1,64 @@
-'''import streamlit as st
-import pickle
-import gzip
-import joblib
+import streamlit as st
 import pandas as pd
 
 st.sidebar.title("Navigation")
 
-st.markdown("<h1 style='text-align: center;'>Identify your Competition</h1>", unsafe_allow_html=True)
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+local_css("style.css")
+
+st.markdown(
+    """
+    <style>
+        [data-testid="stSidebarNav"]::before {
+            content: "ConsultART";
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 30px;
+            position: relative;
+            top: 100px;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.markdown("<h1 style='text-align: center;'>Search for Key Market Ideas</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)
 
+# INTRODUCTION
+
+
+# READ DATA
 def read_base():
-    with open('raw_to_inner.pkl', 'rb') as f:
-        raw_to_inner = pickle.load(f)
-
-    with open('inner_to_raw.pkl', 'rb') as f:
-        inner_to_raw = pickle.load(f)
+    df_rest = pd.read_parquet('Data Engineering/Unification/df_restaurants.parquet')
+    df_results = pd.read_parquet('Machine Learning/df_results.parquet')
     
-    with gzip.open('modelo_knn.gz', 'rb') as f:
-        knn = joblib.load(f)
+    return df_rest, df_results
 
-    df_rest = pd.read_parquet('Data Engineering/Unification/Final Unifications/df_restaurants.parquet')
-    
-    return raw_to_inner, inner_to_raw, knn, df_rest
-
-raw_to_inner, inner_to_raw, knn, df_rest = read_base()
-
-def get_similar_businesses(business_id,cluster):
+df_rest, df_results = read_base()
+showoff = ['business_name','category','avg_rating','state','county','city','address']
+def get_similar_businesses(business_id):
     # eleccion del top 5
-    business_inner_id = raw_to_inner[business_id]
-    business_similarities = knn.get_neighbors(business_inner_id, k=1000)
-    
-    # toma de datos de los ids seleccionados
-    similar_businesses_ids = [inner_to_raw[inner_id] for inner_id in business_similarities]
-    similar_businesses = df_rest[df_rest['business_id'].isin(similar_businesses_ids) & (df_rest['cluster'] == cluster)].head(5)
-    similar_businesses.drop(columns=['%_competition','longitude','latitude','cluster','cluster_rating','cluster_name','review_count'],inplace=True)
+    searched_id = business_id
+    related = df_results[df_results['business_id'] == searched_id].related.tolist()[0]
+    result = df_rest[df_rest['business_id'].isin(related)].drop(columns=['%_competition','longitude','latitude','cluster_rating','cluster_name','review_count','cluster','postal_code'])
+    result = result[showoff]
+    return result
 
-    return similar_businesses
+user_input = st.text_input("Enter your restaurant ID here") 
 
-business_id = '0x88c2fd4b6db6ca95:0x5b414c5c84a4c5e0'  # business_id deseado
-cluster = df_rest[df_rest['business_id'] == business_id]['cluster'].values[0]
-top_recommendations = get_similar_businesses(business_id,cluster)
+st.write('You can use 0x80c2c84fc6975997:0x69176b0c7d86d5a7 as an example')
 
-st.dataframe(top_recommendations)
-'''
+rename = {'business_name':'Restaurant','category':'Category','state':'State','avg_rating':'Rating','county':'County','city':'City','address':'Address'}
+
+if user_input:
+    st.write('Selected Restaurant:')
+    searched = df_rest[df_rest.business_id == user_input]
+    searched = searched[showoff]
+    st.dataframe(searched.rename(columns=rename),hide_index=True,height=80)
+    result = get_similar_businesses(user_input)
+    st.write('Recommended restaurants to visit:')
+    st.dataframe(result.rename(columns=rename),hide_index=True,height=220)
