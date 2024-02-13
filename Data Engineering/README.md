@@ -1,4 +1,4 @@
-# Data Engineering for Project
+# Data Engineering
 
 This document outlines the Data Engineering process for our project, detailing the scope determination, data processing, and pipeline creation.
 
