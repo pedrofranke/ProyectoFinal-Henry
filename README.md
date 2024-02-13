@@ -88,7 +88,7 @@ This project aims to provide our client with valuable information for strategic 
 ## Pipeline
 
 <p align='center'>
-<img src="Images/pipeline_giff.gif" alt="Python Logo" width="800">
+<img src="Images/pipeline.giff.gif" alt="Python Logo" width="800">
 </p>
 
 ## Timeline
