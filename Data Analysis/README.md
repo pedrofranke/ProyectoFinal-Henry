@@ -40,9 +40,26 @@ Based on this we began to carry out a deep analysis in 3 different approaches:
 - ***Quantitative analysis:***
      - This analysis allows us to visualize the number of restaurants that we can find in each state and their distribution, growth and category.<br>
 ![restaurantes-por-a-o.png](https://i.postimg.cc/26MPZqSM/restaurantes-por-a-o.png)
+- ***Analysis by most popular counties in Florida and Pennsylvania***
+     - Once we choose the two States that represent the least competition, an analysis is carried out on the 5 most popular counties in each one. This is to analyze which of them represents less market competition based on their average rating. <br>
+
+**Florida**
+![rating-por-a-o-condados-Florida.png](https://i.postimg.cc/kMbH4B0P/rating-por-a-o-condados-Florida.png)
+**Pennsylvania**
+![rating-por-a-o-condados-Pennsylvania.png](https://i.postimg.cc/fWV64HzC/rating-por-a-o-condados-Pennsylvania.png)
+- ***Analysis of categories with less popularity in the market of each county***
+     - In this last section, an analysis is carried out on the two counties that represent the least competition and we see the least popular restaurant categories in each one. This to find the best investment possibilities.
+
+**Hillsborough County**
+
+![competencia-Hillsborough.png](https://i.postimg.cc/TYcbGvcv/competencia-Hillsborough.png)
+
+**Philadelphia County**
+
+![competencia-Philadelphia.png](https://i.postimg.cc/9XY0wtwG/competencia-Philadelphia.png)
 
 ### Unified database analysis notebook and functions
 
 - [Here](https://github.com/pedrofranke/ProyectoFinal-Henry/blob/main/Data%20Analysis/EDA%20final/EDA_final.ipynb) you can see the entire exploratory analysis notebook carried out for the final conclusions.
-- [Here](https://github.com/pedrofranke/ProyectoFinal-Henry/blob/main/Data%20Analysis/EDA%20final/functions.py) you can view the different functions used during the analysis.
+- [Here](https://github.com/pedrofranke/ProyectoFinal-Henry/blob/main/Data%20Analysis/EDA%20Final/functions.py) you can view the different functions used during the analysis.
 
